@@ -21,7 +21,8 @@ body {
     border-radius: 10px;
     padding: 30px 20px;
 }
-h2{
+
+h2 {
     color: lightskyblue;
     text-transform: uppercase;
     margin: 30px;
@@ -34,6 +35,21 @@ select {
     border-radius: 5px;
     width: 150px;
 }
+
+@media screen and (max-width:490px) {
+    select {
+        width: 100px;
+        margin: 10px;
+
+    }
+    input{
+        width: 130px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
 
 input {
     /* margin-top: 20px; */
