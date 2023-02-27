@@ -21,16 +21,21 @@ body {
     border-radius: 10px;
     padding: 30px 20px;
 }
+h2{
+    color: lightskyblue;
+    text-transform: uppercase;
+}
 
 select {
-    margin: 40px;
+    margin: 30px;
     border: 2px solid #000;
     padding: 10px;
     border-radius: 5px;
+    width: 150px;
 }
 
 input {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 5px;
     border: 2px solid #000;
     padding: 10px;
@@ -39,7 +44,8 @@ input {
 }
 
 .input2 {
-    border: none;
+    /* border: none; */
+    color: #000;
 }
 
 button {
